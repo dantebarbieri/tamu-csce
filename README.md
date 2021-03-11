@@ -49,36 +49,36 @@ This repository contains:
       4. [Polymorphism](CSCE%20121%20-%20Introduction%20to%20Program%20Design%20and%20Concepts/6%20Object%20Oriented%20Programming/4%20Polymorphism)
       5. [Templated Classes](CSCE%20121%20-%20Introduction%20to%20Program%20Design%20and%20Concepts/6%20Object%20Oriented%20Programming/5%20Templated%20Classes)
 2. [CSCE 221 - Data Structures and Algorithms](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms)
-   1. Dynamic Arrays
-      1. Grow by 1
-      2. Grow by Doubling
-      3. Grow &amp; Shrink
-   2. Linked Lists
-      1. Singly Linked Lists
-      2. Doubly Linked Lists
-      3. Circular Singly Linked Lists
-      4. Circular Doubly Linked Lists
-      5. Iterators
-   3. Stacks &amp; Queues
-      1. Stack
-      2. Queue
-      3. Deque
-      4. Priority Queue
-   4. Trees
-      1. Binary Trees
-      2. Binary Heaps
-      3. Binary Search Trees
-      4. AVL Trees
-      5. Red-Black Trees
-      6. B-Trees
-   5. Maps
-      1. Conceptual Map
-      2. Hash Maps
-   6. Skip Lists
-   7. Graphs
-      1. Adjacency List
-         1. Undirected Graphs
-         2. Directed Graphs
-      2. Adjacency Matrix
-         1. Undirected Graphs
-         2. Directed Graphs
+   1. [Dynamic Arrays](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/1%20Dynamic%20Arrays)
+      1. [Grow and Shrink by 1](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/1%20Dynamic%20Arrays/1%20Grow%20and%20Shrink%20by%201)
+      2. [Grow by Doubling](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/1%20Dynamic%20Arrays/2%20Grow%20by%20Doubling)
+      3. [Grow &amp; Shrink](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/1%20Dynamic%20Arrays/3%20Grow%20%26%20Shrink)
+   2. [Linked Lists](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/2%20Linked%20Lists)
+      1. [Singly Linked Lists](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/2%20Linked%20Lists/1%20Singly%20Linked%20Lists)
+      2. [Doubly Linked Lists](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/2%20Linked%20Lists/2%20Doubly%20Linked%20Lists)
+      3. [Circular Singly Linked Lists](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/2%20Linked%20Lists/3%20Circular%20Singly%20Linked%20Lists)
+      4. [Circular Doubly Linked Lists](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/2%20Linked%20Lists/4%20Circular%20Doubly%20Linked%20Lists)
+      5. [Iterators](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/2%20Linked%20Lists/5%20Iterators)
+   3. [Stacks &amp; Queues](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/3%20Stacks%20%26%20Queues)
+      1. [Stack](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/3%20Stacks%20%26%20Queues/1%20Stack)
+      2. [Queue](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/3%20Stacks%20%26%20Queues/2%20Queue)
+      3. [Deque](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/3%20Stacks%20%26%20Queues/3%20Deque)
+      4. [Priority Queue](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/3%20Stacks%20%26%20Queues/4%20Priority%20Queue)
+   4. [Trees](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/4%20Trees)
+      1. [Binary Trees](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/4%20Trees/1%20Binary%20Trees)
+      2. [Binary Heaps](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/4%20Trees/2%20Binary%20Heaps)
+      3. [Binary Search Trees](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/4%20Trees/3%20Binary%20Search%20Trees)
+      4. [AVL Trees](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/4%20Trees/4%20AVL%20Trees)
+      5. [Red-Black Trees](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/4%20Trees/5%20Red-Black%20Trees)
+      6. [B-Trees](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/4%20Trees/6%20B-Trees)
+   5. [Maps](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/5%20Maps)
+      1. [Conceptual Map](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/5%20Maps/1%20Conceptual%20Map)
+      2. [Hash Maps](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/5%20Maps/2%20Hash%20Maps)
+   6. [Skip Lists](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/6%20Skip%20Lists)
+   7. [Graphs](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/7%20Graphs)
+      1. [Adjacency List](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/7%20Graphs/1%20Adjacency%20List)
+         1. [Undirected Graphs](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/7%20Graphs/1%20Adjacency%20List/1%20Undirected%20Graphs)
+         2. [Directed Graphs](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/7%20Graphs/1%20Adjacency%20List/2%20Directed%20Graphs)
+      2. [Adjacency Matrix](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/7%20Graphs/2%20Adjacency%20Matrix)
+         1. [Undirected Graphs](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/7%20Graphs/2%20Adjacency%20Matrix/1%20Undirected%20Graphs)
+         2. [Directed Graphs](CSCE%20221%20-%20Data%20Structures%20and%20Algorithms/7%20Graphs/2%20Adjacency%20Matrix/2%20Directed%20Graphs)
