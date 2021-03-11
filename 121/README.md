@@ -1,1 +1,1 @@
-# tamu-csce
+# CSCE 121 &ndash; Introduction to Program Design and Concepts
