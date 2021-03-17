@@ -4,16 +4,10 @@
 
 using std::cout, std::endl;
 
-// template <typename T>
-// void print(typename BST<T>::Node* n) {
-//     if(n) {
-//         cout << n->obj << endl;
-//     }
-// }
-
-void print(typename BST<int>::Node* n) {
+template <typename T>
+void print(typename BST<T>::Node* n) {
     if(n) {
-        cout << n->obj << ' ';
+        cout << n->obj << endl;
     }
 }
 
@@ -25,10 +19,10 @@ int main() {
         b.insert(rand() % 99 + 1);
     cout << b << endl;
     cout << "Pre Order: " << endl;
-    b.preorder(print);
+    b.preorder(print<int>);
     cout << endl << "In Order: " << endl;
-    b.inorder(print);
+    b.inorder(print<int>);
     cout << endl << "Post Order: " << endl;
-    b.postorder(print);
+    b.postorder(print<int>);
     cout << endl;
 }
