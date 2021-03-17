@@ -1,13 +1,13 @@
-# Binary Search Trees
+# Binary Trees
 ## Video
 https://youtu.be/j5AWclm0BJM
 
 I'm putting timestamps on this one because it is ridiculously long.
 
 ## Description
-Binary Search Trees are a simplistic and generic structure that differs from Linked Lists in that they are no longer linear. A list node can always point to the next node, whereas a Binary Tree Node can point to its left and right child, should they exist. Therefore, there are up to two options for going to the following item at every point in a tree. A key concept for working with all trees is recursion; we'll use it a lot!
+Binary Trees are a simplistic and generic structure that differs from Linked Lists in that they are no longer linear. A list node can always point to the next node, whereas a Binary Tree Node can point to its left and right child, should they exist. Therefore, there are up to two options for going to the following item at every point in a tree. A key concept for working with all trees is recursion; we'll use it a lot!
 
-Our Binary Search Tree keeps track of its size (not its height) and can `search` for a value. It can also `insert` and `remove` values once the containing node has returned by reference from either a search or an insert. It supports the Rule of 5 (though this hasn't been tested!) and some C++ Standard Template Library (STL) functions such as `empty` and `size`. It flouts other functions such as using `destroy` instead of `clear`, though this is part of the `protected` members instead of the exposed public ones.
+Our Binary Tree keeps track of its size (not its height) and can `search` for a value. It can also `insert` and `remove` values once the containing node has returned by reference from either a search or an insert. It supports the Rule of 5 (though this hasn't been tested!) and some C++ Standard Template Library (STL) functions such as `empty` and `size`. It flouts other functions such as using `destroy` instead of `clear`, though this is part of the `protected` members instead of the exposed public ones.
 
 Most of the tree is written with the help of `protected` helper functions. It is intended to be extended in the future, which is why it has a `virtual` destructor and *any* `protected` members. If you do not want to extend the tree, then `private` is a better choice for such members.
 
