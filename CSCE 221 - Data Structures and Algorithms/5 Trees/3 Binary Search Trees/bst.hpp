@@ -1,8 +1,6 @@
 #ifndef _BST_HPP_
 #define _BST_HPP_
 
-#include "../1 Binary Trees/binary_tree.hpp"
-
 template <typename T>
 class BST
 {
