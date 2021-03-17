@@ -49,6 +49,61 @@ void BST<T>::print(std::ostream &os, const Node *n, size_t depth) const
 }
 
 template <typename T>
+void BST<T>::preorder_helper(Node *n, void (*func)(Node *))
+{
+    if (n)
+    {
+        func(n);
+        preorder_helper(n->left, func);
+        preorder_helper(n->right, func);
+    }
+}
+
+template <typename T>
+void BST<T>::inorder_helper(Node *n, void (*func)(Node *))
+{
+    if (n)
+    {
+        inorder_helper(n->left, func);
+        func(n);
+        inorder_helper(n->right, func);
+    }
+}
+
+template <typename T>
+void BST<T>::postorder_helper(Node *n, void (*func)(Node *))
+{
+    if (n)
+    {
+        postorder_helper(n->left, func);
+        postorder_helper(n->right, func);
+        func(n);
+    }
+}
+
+template <typename T>
+void BST<T>::euler_traversal_helper(Node *n, void (*preorder)(Node *), void (*inorder)(Node *), void (*postorder)(Node *))
+{
+    if (n)
+    {
+        if (preorder)
+        {
+            preorder(n);
+        }
+        euler_traversal_helper(n->left, preorder, inorder, postorder);
+        if (inorder)
+        {
+            inorder(n);
+        }
+        euler_traversal_helper(n->right, preorder, inorder, postorder);
+        if (postorder)
+        {
+            postorder(n);
+        }
+    }
+}
+
+template <typename T>
 BST<T>::Node::Node(T object, Node *leftChild, Node *rightChild) : obj{object}, left{leftChild}, right{rightChild} {}
 
 template <typename T>
@@ -188,13 +243,44 @@ typename BST<T>::Node &BST<T>::insert(const T &data)
     return *root;
 }
 
-
-
 template <typename T>
 void BST<T>::clear()
 {
     destroy(root);
     reset();
+}
+
+template <typename T>
+void BST<T>::preorder(void (*func)(Node *))
+{
+    if (func)
+    {
+        preorder_helper(root, func);
+    }
+}
+
+template <typename T>
+void BST<T>::inorder(void (*func)(Node *))
+{
+    if (func)
+    {
+        inorder_helper(root, func);
+    }
+}
+
+template <typename T>
+void BST<T>::postorder(void (*func)(Node *))
+{
+    if (func)
+    {
+        postorder_helper(root, func);
+    }
+}
+
+template <typename T>
+void BST<T>::euler_traversal(void (*preorder)(Node *), void (*inorder)(Node *), void (*postorder)(Node *))
+{
+    euler_traversal_helper(root, preorder, postorder, inorder);
 }
 
 template <typename T>
